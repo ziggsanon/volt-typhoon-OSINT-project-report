@@ -1,4 +1,4 @@
-# volt-typhoon-OSINT-project-report
+# Volt-Typhoon-OSINT-Project-Report
 OSINT investigation and threat actor profiling of Volt Typhoon using tools like VirusTotal, Shodan, and Maltego.
 
 This repository contains an open-source intelligence (OSINT) investigation of the threat actor Volt Typhoon, known for targeting U.S. critical infrastructure. The project includes threat actor profiling, infrastructure mapping, and IOC documentation based on publicly available indicators and reconnaissance using tools like:
@@ -9,13 +9,13 @@ This repository contains an open-source intelligence (OSINT) investigation of th
 - HaveIBeenPwned
 - MITRE ATT&CK
 
-## 📁 Project Contents
+## Project Contents
 - `maltego-graph.png` – Visual mapping of known C2 infrastructure
 - `IOCs.md` – List of IPs, domains, and other indicators
 - `README.md` – Overview and context
 - `screenshots/` – OSINT findings and tool outputs
 - 
-## 📸 Highlights![github project CTI 1](https://github.com/user-attachments/assets/dbf1ec9b-cf67-4e31-8e6e-654d9ff44ad5)
+## Highlights![github project CTI 1](https://github.com/user-attachments/assets/dbf1ec9b-cf67-4e31-8e6e-654d9ff44ad5)
 
 > Screenshots available in the `/screenshots` folder with captions that explain:
 
@@ -32,7 +32,7 @@ This repository contains an open-source intelligence (OSINT) investigation of th
 - Maltego graph (to be added) showing connections across assets
 - Breach check hits from HaveIBeenPwned
 
-## 🧩 Tools & Techniques
+## Tools & Techniques
 - **Shodan** – IP/domain reconnaissance, service discovery
 - **VirusTotal** – Domain/IP reputation and passive DNS
 - **Maltego CE** – Infrastructure relationship mapping
@@ -42,7 +42,7 @@ This repository contains an open-source intelligence (OSINT) investigation of th
 - **MITRE ATT&CK** – Mapping adversary TTPs
 ![TTP Mapping Screenshot](https://github.com/user-attachments/assets/b1a6d01b-4a95-4339-ba84-06b2bc77d983)
 
-## ✅ Key Takeaways
+## Key Takeaways
 - Volt Typhoon’s infrastructure demonstrates stealthy, living-off-the-land tactics
 - Multiple domains linked via passive DNS and shared hosting metadata
 - MITRE ATT&CK techniques observed include [T1071.001 – Web Protocols], [T1083 – File and Directory Discovery]
